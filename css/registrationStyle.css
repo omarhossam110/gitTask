@@ -1,0 +1,99 @@
+section {
+    width: 100%;
+    margin: 0 1rem 0 1rem;
+}
+
+.container {
+    max-width: 120rem;
+    margin: 1rem auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 50%;
+    border: 1px solid #e0f0e8;
+}
+
+.card form {
+    padding: 1rem;
+    background-color: #f5faf9;
+}
+
+.card form h2 {
+    color: #56927b;
+}
+
+.card form p {
+    background-color: #e0f0e8;
+    border: 1px dashed #6ba08c;
+    padding: 0.5rem;
+}
+
+.redStar {
+    color: red;
+}
+
+.card form .field {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.card form .field label {
+    display: inline-block;
+    width: 20rem;
+    padding: .5rem;
+    margin-right: 1rem;
+    background-color: #e0f0e8;
+    color: #6d8882;
+    text-align: right;
+}
+
+.card form .field .numField {
+    display: inline-block;
+}
+
+.card form .field .numField .numSpan {
+    display: block;
+    color: #6d8882;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.card form .field .numField input {
+    width: 7rem;
+}
+
+.card form .field .numField .last {
+    width: 15rem;
+}
+
+.card form .field .txtArea {
+    display: flex;
+}
+
+.card form .field select {
+    padding: 2px;
+    width: 17rem;
+}
+
+.card form .field .checkbox {
+    text-align: center;
+}
+
+.card form .field .submit {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.card form .field .submit input {
+    margin: 0 1rem;
+    padding: .5rem;
+    cursor: pointer;
+}

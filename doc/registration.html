@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo</title>
+    <link rel="stylesheet" href="../css/_baseStyle.css">
+    <link rel="stylesheet" href="../css/registrationStyle.css">
+</head>
+
+<body>
+
+    <!------------------------------      Website Header      ---------------------------------->
+    <header class="navbar">
+
+        <ul class="nav">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="roodMap.html">Rood-Map</a></li>
+            <li><a href="#">Registration</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+
+        <!------------------------------      website logo      ---------------------------------->
+        <img id="1st" src="../img/ITI_logo.png" alt="website logo">
+      
+
+    </header>
+
+ 
+    <!------------------------------      registration form      ---------------------------------->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="card">
+                    <form action="/action_page.php">
+                        <h2>Registr - Create Account</h2>
+                        <p>field Marked with <span class="redStar">*</span>
+                            are compulsory fields.
+                        </p>
+                        <div class="field">
+                            <label for="fname"><span class="redStar">*</span>
+                                Your Name</label>
+                            <input type="text" id="name" name="name" value="" required>
+                        </div>
+
+                        <div class="field">
+                            <label for="email"><span class="redStar">*</span>
+                                E-mail ID</label>
+                            <input type="email" id="email" name="email" value="" required>
+                        </div>
+
+                        <div class="field">
+                            <label for="altEmail">
+                                Altr E-mail ID</label>
+                            <input type="email" id="altEmail" name="email" value="">
+                        </div>
+
+                        <div class="field">
+                            <label for="num">Your Number</label>
+                            <div class="numField">
+                                <span class="numSpan">Country Code -</span>
+                                <input type="number" id="num" name="num" value=""> -
+                            </div>
+                            <div class="numField">
+                                <span class="numSpan">City Code -</span>
+                                <input type="number" id="num" name="num" value=""> -
+                            </div>
+                            <div class="numField">
+                                <span class="numSpan">Phone Number</span>
+                                <input class="last" type="number" id="num" name="num" value="">
+                            </div>
+                        </div>
+
+                        <div class="field">
+                            <label for="mobNum">
+                                Mobile Number</label>
+                            <input type="number" id="mobNum" name="mobNum" value="">
+                        </div>
+
+                        <div class="field">
+                            <div class="txtArea">
+                                <label for="Address"><span class="redStar">*</span>
+                                    Your Postal Address</label>
+                                <textarea id="Address" name="Address" rows="2" cols="30" required>
+                               </textarea>
+                            </div>
+                        </div>
+
+                        <div class="field">
+                            <label for="country"><span class="redStar">*</span>
+                                Country</label>
+                            <select name="countries" id="country" value="" required>
+                                <option value="">------- Select One -------</option>
+                                <option value="america">America</option>
+                                <option value="england">England</option>
+                                <option value="egypt">Egypt</option>
+                                <option value="germany">Germany</option>
+                            </select>
+                        </div>
+
+                        <div class="field">
+                            <label for="password"><span class="redStar">*</span>
+                                Password</label>
+                            <input type="password" id="password" name="password" value="" required>
+                        </div>
+
+                        <div class="field">
+                            <label for="rePassword"><span class="redStar">*</span>
+                                Re-Enter Password</label>
+                            <input type="password" id="rePassword" name="rePassword" value="" required>
+                        </div>
+
+                        <div class="field">
+
+                            <div class="checkbox">
+                                <input type="checkbox" id="terms" required>
+                                I Accept the <a href="#">Terms of Use</a>
+                            </div>
+
+                            <div class="submit">
+                                <input type="submit" value="Continue >>">
+                                <input type="reset"  value="Rest">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <footer>
+        <p>
+           Copyright 2022 by Omer Hossam &reg;. All Rights Reserved
+        </p>
+     </footer>
+
+</body>
+
+</html>

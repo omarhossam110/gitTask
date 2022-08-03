@@ -1,0 +1,58 @@
+html{
+    /* This Defines What 1rem is */
+        font-size: 62.5%; 
+    /* //1rem = 10px; by 10px/16px = 62.5% */
+}
+body{
+    font-size: 1.6rem;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* ------------- Header -------------------- */
+.navbar{
+
+    background-color:#24252A; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1rem;
+}
+
+.navbar .nav{
+   margin: 0;
+   padding: 0;
+   list-style: none;
+}
+
+.navbar .nav li{
+   display: inline-block;
+   color: #edf0f1;
+   padding: 3rem;
+   margin: 0;
+}
+
+.navbar .nav li a{
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+.navbar .nav li:hover{
+    background-color: #9f252a ;
+}
+
+.navbar img{
+   width: 13rem;
+}
+
+/* ------------- footer -------------------- */
+footer{
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding: 0.5rem;
+    background-color: #24252A;
+    color: #edf0f1;
+  }
