@@ -4,7 +4,9 @@ section{
     padding: 0 1rem 0 1rem;
 }
 
-section img{
-    width:100%;
-    height:100%;
+section img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
