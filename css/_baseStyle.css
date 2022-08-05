@@ -13,7 +13,7 @@ body{
 /* ------------- Header -------------------- */
 .navbar{
 
-    background-color:#24252A; 
+    background-color:rgba(93, 3, 3, 0.873); 
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -39,7 +39,7 @@ body{
 }
 
 .navbar .nav li:hover{
-    background-color: #9f252a ;
+    background-color: #17144b ;
 }
 
 .navbar img{
@@ -54,6 +54,6 @@ footer{
     bottom: -16.5rem;
     text-align: center;
     padding: 0.5rem;
-    background-color: #24252A;
+    background-color:rgba(93, 3, 3, 0.873); 
     color: #edf0f1;
   }
